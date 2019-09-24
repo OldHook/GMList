@@ -5,7 +5,7 @@ from difflib import SequenceMatcher
 def similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
-dirName = 'c:\Work\Python\Projects\Other\GMList\Source'
+dirName = r'c:\Users\OldHook\Documents\Dev\Python\GMList\Source'
 aData = []
 names = os.listdir(dirName)
 for name in names:
